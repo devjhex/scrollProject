@@ -1,0 +1,12 @@
+{
+  "name": "scrollproject",
+  "version": "1.0.0",
+  "description": "A project that is meant to big up your JS skills ASAP",
+  "main": "app.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i input.css -o output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/RobotoCondensed-Regular.ttf');
+}
+
+@layer utilities {
+    .fix{
+        @apply fixed top-0 left-0 w-screen bg-priDarkGreen;
+    }
+}

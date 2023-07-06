@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Official Website</title>
+    <script src="https://kit.fontawesome.com/7666dfc9fb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="output.css">
+    <style>
+        body{
+            background-color:#132a13;
+        }
+    </style>
+</head>
+<body class=" bg-[url('./images/image3.jpg')] bg-cover bg-no-repeat h-screen">
+    <header id="nav" class="p-3 w-screen sm:flex sm:justify-between sm:items-center md:max-w-[1500px] md:mx-auto ">
+        <div class="flex items-center justify-between bg-neuBrown sm:[background-color:transparent] rounded-t-xl p-3">
+            <img class="w-[100px] h-[100px]" src="./images/starbucks-logo-png-1673.png" alt="logo">
+            <div class="nav-toggle cursor-pointer sm:hidden">
+
+                <span class="fa-solid fa-bars text-3xl text-priLightGreen">Hello</span>
+            </div>
+        </div>
+        <div class="links-container sm:w-9/12 h-0 sm:h-full overflow-hidden transition-all">
+            <ul class=" bg-priDarkerGreen rounded-b-xl sm:rounded-xl sm:w-11/12 p-3 text-neuBrown transition-all sm:flex sm:items-center sm:justify-between md:text-2xl">
+                <li><a href="#title" class="scroll-link">Home</a></li>
+                <li><a href="#lunch" class="scroll-link">Lunch</a></li>
+                <li><a href="#dinner" class="scroll-link">Dinner</a></li>
+                <li><a href="#breakfast" class="scroll-link">Breakfast</a></li>
+                <li><a href="#desert" class="scroll-link">Desert</a></li>
+                <li><a href="#chocolate" class="scroll-link">Chocolate</a></li>
+            </ul>
+        </div>
+        
+    </header>
+    <main class="p-3  font-roboto font-bold text-neuBrown md:max-w-[1500px] md:mx-auto">
+        <h1 id="title" class="text-[5rem] sm:text-[8rem]">Feel The taste of it.</h1>
+        <button class="border-[5px] p-2 border-neuBrown text-4xl sm:text-[4rem] sm:p-5 block mt-4 tracking-widest hover:border-neuPeach hover:text-neuPeach transition-all">Order Now</button>
+        <div class=" mt-8 bg-yellow-500 relative">
+            <a href="#title"><button id="back" class="bg-priDarkGreen p-2 rounded-xl fa-solid fa-arrow-right w-10 h-10 -rotate-90 ml-auto block fixed bottom-4 right-4 hidden scroll-link"></button></a>
+            
+        </div>
+        <section id="lunch" class="h-screen bg-neuBrown text-priDarkerGreen mt-[10rem] rounded p-4">
+            <h1 class="text-5xl text-center">About <span>Lunch</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia quibusdam nesciunt quasi deserunt excepturi, illo iusto eveniet sint, labore, minus perferendis reprehenderit et? Atque, aperiam quis enim debitis praesentium quo.</p>
+        </section>
+        <section id="dinner" class="h-screen bg-neuBrown text-priDarkerGreen mt-[10rem] rounded p-4 text-center text-5xl ">
+            <h1>About <span>Dinner</span></h1>
+        </section>
+        <section id="breakfast" class="h-screen bg-neuPeach text-priDarkerGreen mt-[10rem] rounded p-4 text-center text-5xl ">
+            <h1>About <span>Breakfast</span></h1>
+        </section>
+        <section id="desert" class="h-screen bg-neuBrown text-priDarkerGreen mt-[10rem] rounded p-4 text-center text-5xl ">
+            <h1>About <span>Desert</span></h1>
+        </section>
+        <section id="chocolate" class="h-screen bg-neuPeach text-priDarkerGreen mt-[10rem] rounded p-4 text-center text-5xl ">
+            <h1>About <span>Chocolate</span></h1>
+        </section>
+    </main>
+   
+
+    <script src="app.js"></script>
+</body>
+</html>
